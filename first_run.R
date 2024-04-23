@@ -5,7 +5,8 @@ install_github("mrc-ide/malariasimulation", ref="vivax_vaccine", force = TRUE)
 
 # main is installed
 
-# Equilibirum is not being reached properly for clinical cases over 50 years - check with Richard!
+# TO DO: In human_infection, need a separate source_humans for vivax!!
+# Might be different for infections and patent infections too
 
 
 library(malariasimulation)
